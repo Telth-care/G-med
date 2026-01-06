@@ -115,7 +115,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <div className="flex space-x-4 pt-4 border-t">
-                {socialLinks.map((social, idx) => {
+                {/* {socialLinks.map((social, idx) => {
                   const Icon = social.icon;
                   return (
                     <a
@@ -126,7 +126,7 @@ export default function Navbar() {
                       <Icon size={20} />
                     </a>
                   );
-                })}
+                })} */}
               </div>
             </div>
           </motion.div>
